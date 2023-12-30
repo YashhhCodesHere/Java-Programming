@@ -14,5 +14,9 @@ public class Input {
 
         int number = sc.nextInt();
         System.out.println(number);
+    //Number is taken as input throught nextInt!
+
+        float price = sc.nextFloat();
+        System.out.println(price);
     }
 }
