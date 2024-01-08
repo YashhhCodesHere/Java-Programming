@@ -8,7 +8,11 @@ public class Vote{
         
         if(age>=18){
             System.out.println("Congratulation... You're eligible to vote!");
-        }else{
+        }
+        if(age>=13 && age < 18) {
+            System.out.println("You're a Teenager!");
+        }
+        else{
             System.out.println("Sorry! You're Not eligible to vote!");
         }
     }
