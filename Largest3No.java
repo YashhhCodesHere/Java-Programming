@@ -10,13 +10,13 @@ public class Largest3No {
         System.out.print("Enter the value of C: ");
         int c = sc.nextInt();
 
-        if(a>b && a>c){
+        if((a>b) && (a>c)){
             System.out.println("A is largest among the all the input");
         }
-        else if(b>a && b>c){
+        else if((b>a) && (b>c)){
             System.out.println("B is largest among the all the input");
         }
-        else if(c>a && c>b){
+        else if((c>a) && (c>b)){
             System.out.println("C is largest among the all the input");
         }
     }
