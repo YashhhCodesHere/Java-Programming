@@ -1,0 +1,11 @@
+{
+	"Adds Import Library": {
+		"scope": "java",
+		"prefix": "implib",
+		"body": [
+			"import java.util.*;"
+			
+		],
+		"description": "Log output to console"
+	}
+}

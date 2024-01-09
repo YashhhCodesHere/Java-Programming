@@ -1,0 +1,10 @@
+{
+	"System Output": {
+		"prefix": "syso",
+		"body": [
+			"System.out.println($1);",
+			"$2"
+		],
+		"description": "This snippet creates output syntax in java!"
+	}
+}
