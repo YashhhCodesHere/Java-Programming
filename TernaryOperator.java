@@ -5,8 +5,7 @@ public class TernaryOperator {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your desired number: ");
         int number = sc.nextInt();
-        String OddEven;
-        OddEven = ((number%2)==0) ? "EVEN" : "ODD";
+        String OddEven = ((number%2)==0) ? "EVEN" : "ODD";
         System.out.println("Your entered number is: " + OddEven);
     }
 }
