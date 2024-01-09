@@ -1,0 +1,5 @@
+impl
+
+public class SwitchCase {
+    
+}

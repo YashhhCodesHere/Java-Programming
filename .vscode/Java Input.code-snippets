@@ -8,7 +8,7 @@
 	// Example:
 	"Input in java": {
 		"scope": "java",
-		"prefix": "scnr",
+		"prefix": "sysi",
 		"body": [
 			"Scanner sc = new Scanner(System.in);",
 			"$1"
