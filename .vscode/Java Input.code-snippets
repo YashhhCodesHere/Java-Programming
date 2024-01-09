@@ -10,8 +10,7 @@
 		"scope": "java",
 		"prefix": "sysi",
 		"body": [
-			"Scanner sc = new Scanner(System.in);",
-			"$1"
+			"Scanner sc = new Scanner(System.in);"
 		],
 		"description": "Log output to console"
 	}
