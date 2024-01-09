@@ -17,7 +17,7 @@ public class Dishes {
             break;
             case "Chole Bhature" : System.out.println("Your order Chole Bhature is ready!");
             break;
-            default : System.out.println("You ordered the dish which is not available in our restauant right now!\n We really apologise for this!");
+            default : System.out.println("You ordered the dish which is not available in our restaurant right now!\n We really apologise for this!");
         }
     }
 }
