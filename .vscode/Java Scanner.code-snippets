@@ -1,7 +1,7 @@
 {
 	"Adds Import Library": {
 		"scope": "java",
-		"prefix": "jdk",
+		"prefix": "util",
 		"body": [
 			"import java.util.*;"
 			

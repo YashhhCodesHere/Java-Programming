@@ -1,4 +1,4 @@
-impl
+import java.util.*;
 
 public class SwitchCase {
     
