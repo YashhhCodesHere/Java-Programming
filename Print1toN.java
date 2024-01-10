@@ -8,7 +8,7 @@ public class Print1toN {
         int counter = 1;
 
         while(counter <= number){
-            System.out.println(counter);
+            System.out.print(counter + " ");
             counter++;
         }
 
