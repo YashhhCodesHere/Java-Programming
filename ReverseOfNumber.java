@@ -10,5 +10,6 @@ public class ReverseOfNumber {
         System.out.print(original % 10); //To get the last digit of the number
         original = original / 10; //To remove the last digit of the number
         }
+        System.out.println();
     }
 }
