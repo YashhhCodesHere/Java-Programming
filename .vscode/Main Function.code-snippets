@@ -1,0 +1,9 @@
+{
+	"Main Function with String": {
+		"scope": "Java",
+		"prefix": "sttc",
+		"body": [
+			"public static void main(String args[]){$1}",
+		]
+	}
+}

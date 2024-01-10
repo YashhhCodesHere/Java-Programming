@@ -4,8 +4,6 @@
 		"prefix": "util",
 		"body": [
 			"import java.util.*;"
-			
 		],
-		"description": "Log output to console"
 	}
 }
