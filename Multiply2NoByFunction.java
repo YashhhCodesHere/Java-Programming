@@ -11,7 +11,7 @@ public class Multiply2NoByFunction {
         int a = sc.nextInt();
         System.out.print("Enter your no: ");
         int b = sc.nextInt();
-        int product = multiply(a, b);
-        System.out.println("Product of your numbers are: " + product);
+        int prod = multiply(a, b);
+        System.out.println("Product of your numbers are: " + prod);
     }
 }
