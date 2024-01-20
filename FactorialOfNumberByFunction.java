@@ -5,15 +5,14 @@ public class FactorialOfNumberByFunction {
         int fact = 1;
         for(int i = 1; i <= input; i++){
             fact *= i; 
-            if(i == input){
-                System.out.println("Factorial of your number is: " + fact);
-            }
         }
+        return fact;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of which you want the factorial of: ");
         int input = sc.nextInt();
         factorial(input);
+        System.out.println(factorial(input));
     }
 }
