@@ -6,7 +6,6 @@ public class Functions {
         System.out.println("Hello World");
         System.out.println("Hello World");
         System.out.println("Hello World");
-        return;
     }
     public static void main(String args[]) {
         System.out.println("Now we're going to print Hello World 5 times by calling a function...\n");
