@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class FuntionWithParameter {
-    public static int calculateSum(int num1, int num2)//Here num1 and num2 are parameters or Formal Parameters...
+    public static int calculateSum(int num1, int num2) //Here num1 and num2 are parameters or Formal Parameters...
     {
         int sum = num1 + num2;
         return sum;
