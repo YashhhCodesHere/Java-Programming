@@ -3,7 +3,7 @@ import java.util.*;
 public class BinomialCoefficient {
     public static int factorial(int a) {
         int fact = 1;
-        for(int i = 0; i <= a; i++){
+        for(int i = 1; i <= a; i++){
             fact *= i;
         }
         return fact;
@@ -11,8 +11,9 @@ public class BinomialCoefficient {
     public static int binCoef(int n, int r){
         int nFact = factorial(n);
         int rFact = factorial(r);
-        int nmrFactt = factorial(n - r);
-        int ncr = (nFact)/(rFact*nmrFactt);
+        int nmrFact = factorial(n - r);
+        
+        int ncr = (nFact) / (rFact*nmrFact);
         return ncr;
     }
     public static void main(String args[]){
