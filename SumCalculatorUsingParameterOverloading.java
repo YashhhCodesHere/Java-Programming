@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SumCalculatorUsingFunctionOverloading {
+public class SumCalculatorUsingParameterOverloading {
     //Sum of two numbers:-
     public static int sum(int a, int b){
         return (a + b);
