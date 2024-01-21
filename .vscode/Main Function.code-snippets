@@ -1,0 +1,13 @@
+{
+	
+	"Main Function Shown": {
+		"scope": "Java",
+		"prefix": "mfunc",
+		"body": [
+			"public static void main(String args[]){",
+			"$1",
+			"}"
+		],
+		"description": "Main function executed!"
+	}
+}
