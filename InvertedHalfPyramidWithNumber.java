@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class InvertedHalfPyramidWithNumber {
-    public static void InvertedHalfPyramid(int n){
+    public static void InvertedHalfPyramid_withNumbers(int n){
         // Outer loop:-
         int num = 1;
         for(int i = 1; i <= n; i++){
