@@ -7,7 +7,7 @@ public class InvertedHalfPyramidWithNumber {
         for(int i = 1; i <= n; i++){
             // Inner loop:-
             for(int j = 1; j <= n - i + 1; j++){
-                System.out.print(num);
+                System.out.print(num + " ");
                 num++;
             }
             num = 1;
@@ -18,6 +18,6 @@ public class InvertedHalfPyramidWithNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of lines: ");
         int n = sc.nextInt();
-        InvertedHalfPyramid(n);
+        InvertedHalfPyramid_withNumbers(n);
     }
 }
