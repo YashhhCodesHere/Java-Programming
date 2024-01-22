@@ -2,8 +2,14 @@ import java.util.*;
 
 public class ArrayCreation{
     public static void main(String args[]){
-        int marks[] = new int[50]; // Arrays Created!
+        // Arrays Created!
+        int marks[] = new int[50]; // Size is declare to be 50 but currently it's size is empty!
 
-        int numbers[] = {1, 2, 3}; // Another syntax to create an array!
+        // Another syntax to create an array!
+        int numbers[] = {1, 2, 3}; // Size = 3
+
+        int moreNumbers[] = {4, 5, 6}; // Size = 3
+
+        String fruits[] = {"Apple", "Mango", "Orange"}; // Size = 3
     }
 }
