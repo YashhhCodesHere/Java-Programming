@@ -2,10 +2,11 @@ import java.util.*;
 
 public class InvertedHalfPyramidWithNumber {
     public static void InvertedHalfPyramid(int n){
-        // Outer loop
+        // Outer loop:-
         int num = 1;
-        for(int i = 0; i <= n; i++){
-            for(int j = 1; j <= n - i; j++){
+        for(int i = 1; i <= n; i++){
+            // Inner loop:-
+            for(int j = 1; j <= n - i + 1; j++){
                 System.out.print(num);
                 num++;
             }
