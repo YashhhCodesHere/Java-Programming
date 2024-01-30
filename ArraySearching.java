@@ -11,10 +11,15 @@ public class ArraySearching {
     }
     public static void main(String args[]){
     Scanner sc = new Scanner(System.in);
-    int numbers[] = {2, 4, 6, 8, 10, 12, 14, 16};
+    int numbers[] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
     System.out.print("Enter the number key (No. you want to search in the array): ");
     int key = sc.nextInt();
-    System.out.println("If -1 gets printed then you entered key doesn't exists in the given array!");
-    LinearSearch(numbers, key);
+
+    int index = LinearSearch(numbers, key);
+    if(index == -1){
+        System.out.println("Key NOT found!");
+    }else{
+        System.out.println("\nYour key is present at " + index + "th index.");
+    }
     }
 }
