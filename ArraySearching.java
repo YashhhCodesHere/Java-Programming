@@ -19,7 +19,7 @@ public class ArraySearching {
     if(index == -1){
         System.out.println("Key NOT found!");
     }else{
-        System.out.println("\nYour key is present at " + index + "th index.");
+        System.out.println("\nYour key is at the " + index + "th index.");
     }
     }
 }
