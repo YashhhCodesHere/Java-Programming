@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MaximumNoInArrayByLinearSearching {
+public class LargestNoInArrayByLinearSearching {
     public static int LargestNum(int numbers[]){
         int Largest = Integer.MIN_VALUE; // Stores minus infinity or smallest value to the variable Largest!
 
