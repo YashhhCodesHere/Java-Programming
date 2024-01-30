@@ -11,5 +11,7 @@ public class ArrayCreation{
         int moreNumbers[] = {4, 5, 6}; // Size = 3
 
         String fruits[] = {"Apple", "Mango", "Orange"}; // Size = 3
+
+        System.out.println("In this code there is nothing to be executed...");
     }
 }
