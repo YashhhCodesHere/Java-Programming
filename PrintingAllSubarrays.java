@@ -7,7 +7,7 @@ public class PrintingAllSubarrays {
             int start = i;
             for(int j = i; j < numbers.length; j++){
                 int end = j;
-                for(int k = start; k < end; k++){  // For Printing
+                for(int k = start; k <= end; k++){  // For Printing
                     System.out.print(numbers[k] + " ");
                     ts++;
                 }
